@@ -1,0 +1,314 @@
+/* navbar */
+
+.navbar {
+    background-color: white;    
+}
+
+.navbar .navbar-brand{
+    color: #6689ff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.navbar .navbar-brand:hover {
+    color: #6689ff;
+
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #151515;
+    font-size: 17px;
+    font-family:  'Roboto', sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+
+.navbar-nav .nav-item .nav-link:hover{
+    text-decoration: underline #6689ff 4px ;
+}
+
+
+
+
+
+/* header */
+
+
+header .headerTitle {
+    color: black;
+    font-size: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header i{
+    color: #151515;
+}
+
+header {
+    background: url(/images/georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg) no-repeat center center ;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: overlay
+}
+
+header .row {
+    height: 100vh;
+}
+
+ .btn {
+    background-color: #6689ff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .btn:hover {
+    background-color: #151515;
+}
+
+.overlay {
+    background-color: rgb(0, 0, 0, .7);
+}
+
+
+
+/* section */
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section .numberOne {
+    font-size: 33px;
+    font-weight: 550;
+    text-align: center;
+
+
+}
+
+
+.section .card i{
+    width: 500px;
+    height: 150px;
+}
+
+.card:hover {
+    box-shadow: 2px 10px 10px gray;
+}
+
+.card-img-top {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/* slider */
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-caption {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 120px;
+}
+
+.one {
+    text-align: left ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 120px;
+}
+
+.carousel-caption h5 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+
+/* team */
+
+#team .card {
+    border: none;
+    box-shadow: none;
+    opacity: 50%;
+    cursor:pointer;
+    transition: all 0.5s ease;
+}
+
+#team .card:hover {
+    opacity: 100%;
+}
+
+#team .fa{
+    font-size: 24px;
+}
+
+
+
+
+/* portfolioText */
+
+#portfolioText h2 {
+    font-size: 36px;
+    font-weight: 550;
+}
+#portfolioText .fa{
+    opacity: 20%;
+}
+
+.iconContainer {
+    position: relative;
+    cursor: pointer;
+    
+}
+.iconOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    transition: 1s ease;
+}
+
+/* portfolio */
+#portfolio {
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+#portfolio .col-md-3 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+#portfolio h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#portfolio .fa {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#portfolio p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.imageContainer {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #6689ff;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imageContainer:hover .imageOverlay {
+    opacity: .7;
+}
+
+.imageText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+
+/* contact */
+#contact {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 252, 252);
+}
+
+#contact h2 {
+    color: #6689ff;
+}
+
+#contact .input-group-text {
+    width: 50px;
+    border-radius: 0;
+    color: whitesmoke;
+    background-color: #6689ff;
+}
+
+#contact .form-control, #contact .btn {
+    border-radius: 0;
+}
+
+/* footer */
+
+#main-footer {
+    color: white;
+    background-color: #151515;
+
+}
+
+/* MEDİA QUERİES */
+
+@media screen and (max-width:1200px){
+    #serviceİmage {
+       text-align: center;
+    }
+    #serviceCards {
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+        align-items: center;
+    }
+   
+
+}
+
+@media screen and (max-width:992px){
+
+}
+
+@media screen and (max-width:768px){
+    
+    
+}
+
+@media screen and (max-width:576px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
